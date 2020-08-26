@@ -36,7 +36,7 @@ public class ActualizarPerfil implements Task {
         } else {
             actor.attemptsTo(Click.on(BOTON_SEXO_FEMENINO));
         }
-                actor.attemptsTo(Click.on(BOTON_GUARDAR));
+        actor.attemptsTo(Click.on(BOTON_GUARDAR));
     }
 
     public static ActualizarPerfil enCampos(List<Persona> personas) {

@@ -12,6 +12,7 @@ public class MensajeConfirmacionDePedido implements Question<String> {
     public String answeredBy(Actor actor) {
         return Text.of(MENSAJE_CONFIRMACION_PEDIDO).viewedBy(actor).asString();
     }
+
     public static MensajeConfirmacionDePedido exitoso() {
         return new MensajeConfirmacionDePedido();
     }

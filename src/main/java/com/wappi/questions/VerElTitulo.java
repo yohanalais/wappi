@@ -12,6 +12,7 @@ public class VerElTitulo implements Question<String> {
     public String answeredBy(Actor actor) {
         return Text.of(TITULO_OFERTAS).viewedBy(actor).asString();
     }
+
     public static VerElTitulo deOfertas() {
         return new VerElTitulo();
     }

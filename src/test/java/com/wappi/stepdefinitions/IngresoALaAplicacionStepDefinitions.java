@@ -35,7 +35,7 @@ public class IngresoALaAplicacionStepDefinitions {
 
     @Entonces("^Ella valida que el ingreso a la aplicacion es exitoso$")
     public void ellaValidaQueElIngresoALaAplicacionEsExitoso() {
-        yohana.should(seeThat(VerElTitulo.deOfertas(),equalTo("Ofertas")));
+        yohana.should(seeThat(VerElTitulo.deOfertas(), equalTo("Ofertas")));
     }
 
     @Entonces("^Ella visualiza la validacion de minimo de caracteres$")

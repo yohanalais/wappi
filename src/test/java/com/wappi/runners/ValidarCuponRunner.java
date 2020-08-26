@@ -7,11 +7,11 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-		features = "src/test/resources/features/validar_cupon.feature",
-		glue = "com.wappi.stepdefinitions",
-		snippets = SnippetType.CAMELCASE,
-		tags = "@Test1"
-		)
+        features = "src/test/resources/features/validar_cupon.feature",
+        glue = "com.wappi.stepdefinitions",
+        snippets = SnippetType.CAMELCASE
+
+)
 public class ValidarCuponRunner {
 
 }

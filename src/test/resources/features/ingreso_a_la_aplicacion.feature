@@ -11,8 +11,8 @@ Característica: Validar formulario de ingreso
   Escenario: Validar ingreso a la aplicacion
     Dado que Yohana quiere usar Wappi
     Cuando Ella diligencia el formulario
-      |nombreUsuario|contrasena|
-      |usuarioPrueba|1234567891|
+      | nombreUsuario | contrasena |
+      | usuarioPrueba | 1234567891 |
     Entonces Ella valida que el ingreso a la aplicacion es exitoso
 
 
@@ -22,8 +22,8 @@ Característica: Validar formulario de ingreso
     Entonces Ella visualiza la validacion de minimo de caracteres
 
     Ejemplos:
-      |usuario|
-      | joseR|
+      | usuario |
+      | joseR   |
 
 
   Esquema del escenario: Validar maximo de caracteres del campo usuario
@@ -32,8 +32,8 @@ Característica: Validar formulario de ingreso
     Entonces Ella visualiza la validacion de maximo de caracteres
 
     Ejemplos:
-      |usuario|
-      | mariaLorenaRestrepoRi|
+      | usuario               |
+      | mariaLorenaRestrepoRi |
 
 
   Escenario: Validar minimo de caracteres del campo contrasena

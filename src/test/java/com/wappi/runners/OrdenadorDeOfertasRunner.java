@@ -7,10 +7,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-		features = "src/test/resources/features/ordenador_de_ofertas.feature",
-		glue = "com.wappi.stepdefinitions",
-		snippets = SnippetType.CAMELCASE
-		)
+        features = "src/test/resources/features/ordenador_de_ofertas.feature",
+        glue = "com.wappi.stepdefinitions",
+        snippets = SnippetType.CAMELCASE
+)
 public class OrdenadorDeOfertasRunner {
 
 }

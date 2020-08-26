@@ -8,17 +8,7 @@ public class Producto {
     private String costoDeEnvio;
     private String comercio;
     private String direccion;
-    //private String usoCupon;
 
-    /*public Producto(String descripcion,String fecha,String precio,String costoDeEnvio,String comercio,String direccion,String usoCupon ){
-        this.descripcion = descripcion;
-        this.fecha = fecha;
-        this.precio = precio;
-        this.costoDeEnvio = costoDeEnvio;
-        this.comercio = comercio;
-        this.direccion = direccion;
-        this.usoCupon= usoCupon;
-    }*/
 
     public String getDescripcion() {
         return descripcion;

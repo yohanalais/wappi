@@ -12,6 +12,7 @@ public class ValidacionMaximoEnContrasena implements Question<String> {
     public String answeredBy(Actor actor) {
         return Text.of(MENSAJE_ERROR_CONTRASENA).viewedBy(actor).asString();
     }
+
     public static ValidacionMaximoEnContrasena deCaracteres() {
         return new ValidacionMaximoEnContrasena();
     }

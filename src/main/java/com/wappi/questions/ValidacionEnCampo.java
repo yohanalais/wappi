@@ -13,6 +13,7 @@ public class ValidacionEnCampo implements Question<String> {
     public String answeredBy(Actor actor) {
         return Text.of(MENSAJE_ERROR_IMAGEN).viewedBy(actor).asString();
     }
+
     public static ValidacionEnCampo deImagen() {
         return new ValidacionEnCampo();
     }

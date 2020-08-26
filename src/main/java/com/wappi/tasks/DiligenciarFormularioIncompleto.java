@@ -1,6 +1,5 @@
 package com.wappi.tasks;
 
-import com.wappi.model.Persona;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
@@ -23,8 +22,10 @@ public class DiligenciarFormularioIncompleto implements Task {
                 Enter.theValue("09/11/1988").into(CAMPO_FECHA_DE_NACIMIENTO),
                 SelectFromOptions.byVisibleText("Colombia").from(CAMPO_PAIS),
                 Click.on(BOTON_SEXO_FEMENINO),
-                Click.on(BOTON_GUARDAR));;
+                Click.on(BOTON_GUARDAR));
+        ;
     }
+
     public static DiligenciarFormularioIncompleto sinImagen() {
         return Tasks.instrumented(DiligenciarFormularioIncompleto.class);
     }

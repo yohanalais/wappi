@@ -15,7 +15,7 @@ public class RealizarPedidoSinCupon implements Task {
                 Click.on(BOTON_PEDIR_TERCERA_OFERTA),
                 Click.on(BOTON_CONFIRMAR_PEDIDO),
                 Click.on(MODAL_CERRAR_PEDIDO)
-                );
+        );
     }
 
     public static RealizarPedidoSinCupon deBienvenida() {

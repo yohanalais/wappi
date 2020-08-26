@@ -1,9 +1,6 @@
 package com.wappi.stepdefinitions;
 
-import com.wappi.questions.LosDatosDePedidos;
-import com.wappi.questions.ElCampoDeUsoCupon;
-import com.wappi.questions.LosDatosDeOferta;
-import com.wappi.questions.NoDejaUtilizarCupon;
+import com.wappi.questions.*;
 import com.wappi.tasks.*;
 import com.wappi.userinterface.WappiLoginPage;
 import cucumber.api.java.Before;
@@ -66,7 +63,7 @@ public class ValidarPedidosStepDefinitions {
 
     @Cuando("^Ella utiliza el cupon (.*)$")
     public void ellaUtilizaElCupon(String cupon) {
-        yohana.attemptsTo();
+        yohana.attemptsTo(UtilizarCupon.invalido(cupon));
     }
 
     @Entonces("^Ella visualiza el uso del cupon (.*)$")
@@ -91,6 +88,6 @@ public class ValidarPedidosStepDefinitions {
 
     @Entonces("^Ella valida que el cupon no se puede usar$")
     public void ellaValidaQueElCuponNoSePuedeUsar() {
-        yohana.should();
+        yohana.should(seeThat(MensajeDeCupon.invalido(), equalTo("Cupón inválido")));
     }
 }

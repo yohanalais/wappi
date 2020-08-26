@@ -7,10 +7,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-		features = "src/test/resources/features/realizar_pedidos.feature",
-		glue = "com.wappi.stepdefinitions",
-		snippets = SnippetType.CAMELCASE,
-		tags = "@Test4"
+        features = "src/test/resources/features/realizar_pedidos.feature",
+        glue = "com.wappi.stepdefinitions",
+        snippets = SnippetType.CAMELCASE
+
 )
 public class RealizarPedidosRunner {
 

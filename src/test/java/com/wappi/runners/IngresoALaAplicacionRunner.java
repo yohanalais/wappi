@@ -8,9 +8,9 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-		features = "src/test/resources/features/ingreso_a_la_aplicacion.feature",
-		glue = "com.wappi.stepdefinitions",
-		snippets = SnippetType.CAMELCASE
+        features = "src/test/resources/features/ingreso_a_la_aplicacion.feature",
+        glue = "com.wappi.stepdefinitions",
+        snippets = SnippetType.CAMELCASE
 
 )
 public class IngresoALaAplicacionRunner {

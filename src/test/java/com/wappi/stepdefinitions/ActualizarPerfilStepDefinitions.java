@@ -5,7 +5,6 @@ import com.wappi.model.Persona;
 import com.wappi.questions.MensajeDeConfirmacion;
 import com.wappi.questions.ValidacionEnCampo;
 import com.wappi.tasks.ActualizarPerfil;
-import com.wappi.tasks.DiligenciarFormulario;
 import com.wappi.tasks.DiligenciarFormularioIncompleto;
 import cucumber.api.java.es.Cuando;
 import cucumber.api.java.es.Entonces;

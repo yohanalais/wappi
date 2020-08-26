@@ -7,7 +7,7 @@ Característica: Validar cupon
   Quiero utizar el cupon de bienvenida
   Para ser descontado del pedido
 
-  @Test1
+
   Escenario: Validar cantidad de veces utilizadas por cupon
     Dado que Yohana quiere usar Wappi
     Y Ella diligencia el formulario
@@ -18,6 +18,7 @@ Característica: Validar cupon
     Y Ella realiza pedidos utilizando el cupon de bienvenida
     Entonces Ella valida que solo lo pueda utilizar dos veces
 
+  @Test1
   Escenario: Verificar cupon inexistente
     Dado que Yohana quiere usar Wappi
     Y Ella diligencia el formulario

@@ -16,7 +16,7 @@ public class DiligenciarFormulario implements Task {
 
     private Persona persona;
 
-    public DiligenciarFormulario (List<Persona> personas) {
+    public DiligenciarFormulario(List<Persona> personas) {
         this.persona = personas.get(0);
 
     }

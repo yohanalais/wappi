@@ -12,16 +12,18 @@ public class IngresarUnaContrasena implements Task {
 
     private String contrasena;
 
-    public IngresarUnaContrasena(String contrasena){
-        this.contrasena=contrasena.trim();
+    public IngresarUnaContrasena(String contrasena) {
+        this.contrasena = contrasena.trim();
     }
+
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(Enter.theValue("usuario").into(CAMPO_NOMBRE_USUARIO),
                 Enter.theValue(contrasena).into(CAMPO_CONTRASENA),
                 Click.on(BOTON_INGRESO));
     }
-    public static IngresarUnaContrasena enCampo(String contrasena){
+
+    public static IngresarUnaContrasena enCampo(String contrasena) {
         return Tasks.instrumented(IngresarUnaContrasena.class, contrasena);
     }
 }

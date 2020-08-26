@@ -12,6 +12,7 @@ public class ValidacionMaximoEnNombreUsuario implements Question<String> {
     public String answeredBy(Actor actor) {
         return Text.of(MENSAJE_ERROR_USUARIO).viewedBy(actor).asString();
     }
+
     public static ValidacionMaximoEnNombreUsuario deCaracteres() {
         return new ValidacionMaximoEnNombreUsuario();
     }
