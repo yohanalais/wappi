@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features/actualizar_perfil.feature",
         glue = "com.wappi.stepdefinitions",
         snippets = SnippetType.CAMELCASE,
-        tags = "@Test2"
+        tags = "@Test1"
 )
 public class ActualizarPerfilRunner {
 

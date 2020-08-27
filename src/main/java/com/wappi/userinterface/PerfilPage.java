@@ -16,4 +16,6 @@ public class PerfilPage {
     public static final Target MENSAJE_CONFIRMACION_ACTUALIZACION = Target.the("mensaje confirmacion de actualizacion")
             .locatedBy("//div[@id='confirmation-modal']/div/p");
     public static final Target MENSAJE_ERROR_IMAGEN = Target.the("mensaje de error en imagen").located(By.id("e-image"));
+    public static final Target BOTON_SELECCIONAR_IMAGEN = Target.the("boton seleccionar imagen ")
+            .located(By.id("image"));
 }
