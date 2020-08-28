@@ -3,6 +3,7 @@
 
 
 
+
 Característica: Actualizar perfil
   Yo como usuario de wappi
   Quiero ingresar la informacion personal
@@ -15,7 +16,6 @@ Característica: Actualizar perfil
       | usuarioPrueba | 1234567891 |
 
 
-  @Test1
   Escenario: Validar la actualizaciòn de la informacion personal
 
     Y Ella actualiza los campos del perfil

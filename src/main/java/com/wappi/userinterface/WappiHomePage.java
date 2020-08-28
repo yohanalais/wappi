@@ -28,7 +28,6 @@ public class WappiHomePage {
             .locatedBy("//h1");
     public static final Target MENSAJE_CONFIRMACION_PEDIDO = Target.the("mensaje confirmacion de pedido")
             .locatedBy("//div[@id='confirmation-modal']/div/p");
-    //*[@id="confirmation-modal"]/div/p
     public static final Target TEXTO_PRECIO = Target.the("texto de precio")
             .locatedBy("//tr[@id='offer-{0}']/td[3]");
     public static final Target MODAL_OFERTA_DESCRIPCION = Target.the("descripcion de oferta")

@@ -9,8 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features/actualizar_perfil.feature",
         glue = "com.wappi.stepdefinitions",
-        snippets = SnippetType.CAMELCASE,
-        tags = "@Test1"
+        snippets = SnippetType.CAMELCASE
 )
 public class ActualizarPerfilRunner {
 

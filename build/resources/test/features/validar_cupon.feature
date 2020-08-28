@@ -19,7 +19,7 @@ Característica: Validar cupon
     Y Ella realiza pedidos utilizando el cupon de bienvenida
     Entonces Ella valida que solo lo pueda utilizar dos veces
 
-  @Test1
+
   Escenario: Verificar cupon inexistente
     Cuando Ella utiliza el cupon QCFSTR1KO
     Entonces  Ella valida que el cupon no se puede usar
